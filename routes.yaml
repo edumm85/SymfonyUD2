@@ -1,0 +1,23 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+productos:
+    path: /productos
+    controller: App\Controller\ProductosController::index
+
+altaProducto:
+    path: /altaProducto
+    controller: App\Controller\ProductosController::altaProducto
+
+bajaProducto:
+    path: /bajaProducto
+    controller: App\Controller\ProductosController::bajaProducto
+
+modificaProducto:
+    path: /modificaProducto
+    controller: App\Controller\ProductosController::modificaProducto
+
+listadoProducto:
+    path: /listadoProducto
+    controller: App\Controller\ProductosController::listadoProducto
